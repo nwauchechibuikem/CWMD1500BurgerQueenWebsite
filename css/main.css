@@ -1,0 +1,180 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* Header Styles */
+header {
+  background-color: #f07b3f;
+  padding: 20px 0;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+/* Hero Styles */
+.hero {
+  background-color: #ffd700;
+  color: #333;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  background-color: #f07b3f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+/* About Section Styles */
+.about {
+  background-color: #f07b3f;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+/* Menu Section Styles */
+.menu {
+  background-color: #ffd700;
+  color: #333;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Location Section Styles */
+.location {
+  background-color: #f07b3f;
+  color: #fff;
+  padding: 10px 0; /* Reduce the top and bottom padding */
+  text-align: center;
+}
+
+.location h2 {
+  font-size: 2rem; /* Reduce the font size of the heading */
+  margin-bottom: 20px;
+}
+
+.location #map {
+  height: 300px; /* Reduce the height of the map */
+  width: 100%;
+  margin-bottom: 20px; /* Reduce the bottom margin */
+}
+
+/* Contact Section Styles */
+.contact {
+  background-color: #ffd700;
+  color: #333;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #f07b3f;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+select[name="Country"] {
+  appearance: none; 
+  -webkit-appearance: none; 
+  -moz-appearance: none; 
+  background-color: #fff;
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  padding: 10px; 
+  width: 400px; 
+  font-size: 16px; 
+  cursor: pointer; 
+}
+
+select[name="Country"]::after {
+  content: '\25BC'; 
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none; 
+  color: #333; 
+}

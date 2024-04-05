@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Queen</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+   
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Burger Queen</h1>
+            <p>Experience the best burgers in town!</p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
+    </section>
+
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>
+            At Burger Queen, we pride ourselves on serving the finest quality burgers in town. Established in [year], our mission is simple: to provide our customers with delicious, mouth-watering burgers made from the freshest ingredients sourced locally.
+            Our journey began with a passion for crafting the perfect burger – one that satisfies the cravings of burger enthusiasts while exceeding their expectations. From classic beef patties to vegetarian options, our diverse menu offers something for everyone.
+            We believe in creating more than just a meal; we strive to create memorable dining experiences for our customers. Whether you're grabbing a quick bite on-the-go or enjoying a meal with family and friends, Burger Queen welcomes you to indulge in the ultimate 
+            burger experience.Join us and taste the difference at Burger Queen – where every bite is a testament to our commitment to quality, flavor, and satisfaction.
+            </p>
+           
+        </div>
+    </section>
+
+  
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            
+            <select name="Country"> 
+                <option value="" selected="selected">Select Country</option> 
+                <option value="United States">United States</option> 
+                <option value="United Kingdom">United Kingdom</option> 
+            </select>
+        </div>
+    </section>
+
+       
+    <section class="location">
+        <div class="container">
+            <h2>Our Location</h2>
+            <div id="map"></div>
+            <form action="http://maps.google.com/maps" method="get" target="_blank">
+                <label for="locationInput">Enter your location</label>
+                <input type="text" id="locationInput" name="saddr" />
+                <input type="hidden" name="daddr" value="255 Malaga Road, Oshawa, Ontario" />
+                <input type="submit" value="Get directions" />
+                <input type="button" id="orderButton" value="Place Order" onclick="createAlerts()" />
+            </form>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>For inquiries or reservations, please call us at: 123-456-7890</p>
+            <p>Or email us at: info@burgerqueen.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Burger Queen. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
