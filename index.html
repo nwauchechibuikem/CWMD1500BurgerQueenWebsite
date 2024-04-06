@@ -50,9 +50,17 @@
         <div class="container">
             <h2 class="mb-4">Our Menu</h2>
             <select name="Country" class="form-select form-select-lg mb-3"> 
-                <option value="" selected>Select Country</option> 
-                <option value="United States">United States</option> 
-                <option value="United Kingdom">United Kingdom</option> 
+                <option value="" selected>Select Food Item</option> 
+                <option value="Cheeseburger">Classic Cheeseburger - $4.99</option> 
+                <option value="D.Cheeseburger">Bacon Double Cheeseburger - $6.49</option> 
+                <option value="Chicken Sandwich">Grilled Chicken Sandwich - $5.79</option> 
+                <option value="Crispy Chicken">Crispy Chicken Sandwich - $5.49</option> 
+                <option value="Veggie ">Veggie Burger - $4.99</option> 
+                <option value="French Fries">French Fries (Regular) - $2.29</option> 
+                <option value="Onion Rings ">Onion Rings - $3.49</option> 
+                <option value="Soft Drink">Soft Drink (Medium) - $1.89</option>
+                <option value="Milkshake ">Milkshake (Regular) - $3.99</option> 
+                <option value="Ice Cream">Ice Cream Cone - $1.29</option> 
             </select>
         </div>
     </section>
@@ -76,8 +84,8 @@
                 <label for="locationInput">Enter your location</label>
                 <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="locationInput" name="saddr" />
                 <input type="hidden" name="daddr" value="338 King St W, Oshawa, ON L1J 2J9" />
-                <button class="btn btn-dark btn-xxl" id="orderButton" value="Place Order" onclick="createAlerts()" >Place Order</button>
                 <button class="btn btn-dark btn-xxl">Get Directions</button>
+                <button class="btn btn-dark btn-xxl" id="orderButton" value="Place Order" onclick="createAlerts()" >Place Order</button>
             </form>
         </div>
     </section>
