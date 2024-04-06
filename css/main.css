@@ -68,7 +68,7 @@ header nav ul li a {
 
 /* About Section Styles */
 .about {
-  background-color: #f07b3f;
+  background-color: #ec3521;
   color: #fff;
   padding: 100px 0;
   text-align: center;
@@ -86,8 +86,8 @@ header nav ul li a {
 
 /* Menu Section Styles */
 .menu {
-  background-color: #ffd700;
-  color: #333;
+  background-color: #f07b3f;
+  color: #fff;
   padding: 100px 0;
   text-align: center;
 }
@@ -111,7 +111,7 @@ header nav ul li a {
 }
 
 .location #map {
-  height: 300px; /* Reduce the height of the map */
+  height: 100px; /* Reduce the height of the map */
   width: 100%;
   margin-bottom: 20px; /* Reduce the bottom margin */
 }
@@ -135,7 +135,7 @@ header nav ul li a {
 }
 
 footer {
-  background-color: #f07b3f;
+  background-color: black;
   color: #fff;
   padding: 20px 0;
   text-align: center;
